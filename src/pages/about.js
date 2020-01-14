@@ -17,37 +17,44 @@ const AboutPage = ({ data }, location) => {
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            Clean, minimal, and deeply customisable. London is a theme made for
-            people who appreciate simple lines.
-          </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
-            <Img
-              fluid={data.benchAccounting.childImageSharp.fluid}
-              className="kg-image"
-            />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
-          </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+          <h2>Hey, my name is Raphaël and I love making content</h2>
+          <p>&nbsp;</p>
+          <h3 id="dynamic-styles">Web Developer</h3>
+
           <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
+            I started playing around with HTML and CSS when I was a kid. Once I
+            learned that all this could be manipulated using JS and backend
+            programming I was hooked.
           </p>
           <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
+            Professionally, I have had the chance to work on several different
+            projects using different technologies, always related to the web.
           </p>
           <p>
-            Don't forget to check out the{" "}
-            <a href="https://docs.ghost.org/integrations/">
-              Ghost Integrations Directory
-            </a>{" "}
-            for more ways to integrate Ghost with your favourite services.
+            Extending my knowledge to others, I have taught courses on
+            HTML5/CSS3, javascript, Angular and Angular 2 using TypeScript.
+          </p>
+          <p>
+            Check out some of my open-source contributions on{" "}
+            <a href="https://github.com/RifRaf44"> Github</a>
+          </p>
+          <p>&nbsp;</p>
+          <h3>Videographer / Photographer</h3>
+          <p>
+            I started out making movies in my backyard with my friends. Creating
+            lasting images is something that has inspired me and still does to
+            this day.
+          </p>
+          <p>
+            The past few summers I have taken pictures and Videos for BoardX and
+            during the winter I make videos for Neige Aventure / On The Mountain
+          </p>
+          <p>&nbsp;</p>
+          <h3>Wanna get in touch?</h3>
+          <p>
+            <h4>
+              <a href="mailto:raphael@vercruyssen.com">Drop me a line!</a>
+            </h4>
           </p>
         </div>
       </article>

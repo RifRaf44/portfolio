@@ -27,6 +27,9 @@ const BlogIndex = ({ data }, location) => {
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
+          <h3>
+          I <span role="img" aria-label="heart">💕</span> <span role="img" aria-label="laptop">💻</span>, <span role="img" aria-label="camera">📷</span> & <span role="img" aria-label="video">📹</span>
+          </h3>
         </header>
       )}
       <div className="post-feed">
