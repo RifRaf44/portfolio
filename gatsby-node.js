@@ -53,6 +53,7 @@ exports.createPages = ({ graphql, actions }) => {
         path: post.node.fields.slug,
         component: blogPost,
         context: {
+          imgdir: post.node.fields.slug.replace(/\//g,"")+"/gallery",
           slug: post.node.fields.slug,
           previous,
           next,

@@ -816,3 +816,20 @@ body {
   margin: auto;
   text-align: center;
 }
+
+.photo-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.photo-container{
+  width: 23rem;
+  margin-top: 1.5rem;
+}
+
+button{
+  box-shadow: none;
+}
