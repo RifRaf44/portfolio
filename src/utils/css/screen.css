@@ -833,3 +833,16 @@ body {
 button{
   box-shadow: none;
 }
+
+.photo-orientation-portrait {
+  display: flex;
+  max-height: 24rem;
+  max-width: 15rem;
+  margin: 2.5rem auto;
+}
+
+.photo-orientation-landscape {
+  display: flex;
+  max-height: 15rem;
+  max-width: 24rem;
+}
