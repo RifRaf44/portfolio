@@ -10,7 +10,7 @@ description: Drone Photography
 <div class="kg-card kg-image-card kg-width-full">
 
 ![Drone](./drone2.jpg)
-![Drone](./drone3.jpg)
+
 ![Drone](./drone4.jpg)
 ![Drone](./drone5.jpg)
 ![Drone](./drone6.jpg)
