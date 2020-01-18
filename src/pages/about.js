@@ -51,11 +51,11 @@ const AboutPage = ({ data }, location) => {
           </p>
           <p>&nbsp;</p>
           <h3>Wanna get in touch?</h3>
-          <p>
+          <div>
             <h4>
               <a href="mailto:raphael@vercruyssen.com">Drop me a line!</a>
             </h4>
-          </p>
+          </div>
         </div>
       </article>
     </Layout>

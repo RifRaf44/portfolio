@@ -11,10 +11,17 @@ description: Casa Maono promo video
 
 <div class="kg-card kg-image-card kg-width-full">
 
+
+![Casa-Maono](./casamaono5.jpg)
+
 ![Casa-Maono](./casamaono2.jpg)
+</div>
 
 ![Casa-Maono](./casamaono3.jpg)
 
+<div class="kg-card kg-image-card kg-width-full">
+
 ![Casa-Maono](./casamaono4.jpg)
+
 </div>
 

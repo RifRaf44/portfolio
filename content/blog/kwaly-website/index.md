@@ -1,6 +1,7 @@
 ---
 title: Kwaly Website
 date: "2019-11-11"
+thumbnail: ./kwaly.jpg
 tags: [kwaly,e-commerce,webdevelopment,react,gatsby]
 description: Redesigning and building the Kwaly website from the ground up using Gatsby, React and Netlify
 ---
