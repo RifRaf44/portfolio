@@ -845,4 +845,5 @@ button{
   display: flex;
   max-height: 15rem;
   max-width: 24rem;
+  margin: 2.5rem auto;
 }
