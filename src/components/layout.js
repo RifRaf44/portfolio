@@ -30,7 +30,7 @@ const Layout = props => {
                 <Link to={`/`}>Home</Link>
               </li> */}
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <Link to={`/about`}>Who is Raphaël?</Link>
               </li>
               {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
@@ -71,7 +71,7 @@ const Layout = props => {
               >
                 GitHub
               </a>
-              <a href="mailto:raphael@vercruyssen.com">Email</a>  
+              <a href="mailto:raphael@vercruyssen.com">Email</a>
             </div>
           </div>
         </div>
@@ -82,15 +82,20 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
-        </a>
+        <div>
+          Contact: <a href="mailto:raphael@vercruyssen.com">raphael@vercruyssen.com</a> 
+        </div>
+        <div>
+          &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>{" "}
+          &mdash; Built with{" "}
+          <a
+            href="https://gatsbyjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Gatsby
+          </a>
+        </div>
       </footer>
     </div>
   )
