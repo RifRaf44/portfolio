@@ -87,7 +87,7 @@ const indexQuery = graphql`
         title
       }
     }
-    profilePic: file(relativePath: { eq: "profile-pic.jpg" }) {
+    profilePic: file(relativePath: { eq: "profile-pic2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
