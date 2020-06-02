@@ -25,22 +25,7 @@ const AboutPage = ({ data }, location) => {
           </div>
           <h2>Hey, my name is Raphaël and I love making content</h2>
 
-          <div>
-            <p>&nbsp;</p>
-            <h3>Videographer / Photographer</h3>
-            <p>
-              I started out making movies in my backyard with my friends.
-              Creating lasting images is something that has inspired me and
-              still does to this day.
-            </p>
-            <p>
-              The past few summers I have taken pictures and Videos for <a href="https://www.boardx.be/">BoardX </a>
-              and during the winter I make videos for <a href="https://www.onthemountain.ch/"> Neige Aventure / On The
-              Mountain</a>
-            </p>
-            <p>&nbsp;</p>
-          </div>
-          <div>
+          <div class="about-me-content">
             <h3 id="dynamic-styles">Web Developer</h3>
 
             <p>
@@ -62,11 +47,55 @@ const AboutPage = ({ data }, location) => {
             </p>
           </div>
 
+          <div class="about-me-content">
+            <h3 id="dynamic-styles">UX Designer</h3>
+
+            <p>
+              When you create something digital it's easy to get lost in the
+              code and functionalities. Most software comes with a manual, but
+              what if you didn't need one?
+            </p>
+            <p>
+              I believe if a piece of software is well thought out and designed
+              with the user's wishes in mind you can skip the manual and just
+              use it straight out of the box. This isn't always an easy task and
+              can only be achieved with the right mindset and approach.
+            </p>
+            <p>
+              Check out some of the stuff I've worked on over at{" "}
+              <a href="https://www.behance.net/turminetor59fd">Behance</a>
+            </p>
+          </div>
+
+          <div class="about-me-content">
+            <h3>Videographer / Photographer</h3>
+            <p>
+              I started out making movies in the backyard with my friends.
+              Creating lasting images is something that has inspired me and
+              still does to this day.
+            </p>
+            <p>
+              Since 2015 I have been taking pictures and making videos for{" "}
+              <a href="https://www.boardx.be/">BoardX </a> that have been used
+              in brochures or on social media. In the winter season of 19/20 I
+              had the opportunity to be part of the Media and Marketing team for
+              <a href="https://www.onthemountain.ch/">
+                {" "}
+                Neige Aventure / On The Mountain
+              </a>
+            </p>
+            <p>&nbsp;</p>
+          </div>
+
           <p>&nbsp;</p>
           <h3>Wanna get in touch?</h3>
           <div>
             <h4>
-              <a href="http://m.me/raphael.vercruyssen" target="_blank">
+              <a
+                href="http://m.me/raphael.vercruyssen"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Chat with me on FB Messenger
               </a>
             </h4>

@@ -81,7 +81,7 @@ export const pageQuery = graphql`
       edges {
         node {
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxWidth: 1000, quality: 85) {
               ...GatsbyImageSharpFluid
               presentationWidth
               presentationHeight
@@ -100,7 +100,7 @@ export const pageQuery = graphql`
         description
         thumbnail {
           childImageSharp {
-            fluid(maxWidth: 1360) {
+            fluid(maxWidth: 1360, quality: 85) {
               ...GatsbyImageSharpFluid
             }
           }

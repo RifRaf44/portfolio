@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
+import Typewriter from "typewriter-effect"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,25 +11,62 @@ import PostCard from "../components/postCard"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 //TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
+
 const BlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
+  let typistIndex
 
   return (
     <Layout title={siteTitle}>
       <SEO
         title="Posts"
-        keywords={[`devlog`, `blog`, `gatsby`, `javascript`, `react`]}
+        keywords={[
+          `UX Designer`,
+          `Web Developer`,
+          `Photographer`,
+          `Video`,
+          `Drone`,
+          `Drone Photography`,
+          `Aerial Photography`,
+          `Surf`,
+          "Snow",
+        ]}
       />
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
-            {data.site.siteMetadata.description}
+            <Typewriter
+              options={{
+                strings: [
+                  "Web Developer",
+                  "UX Designer",
+                  "Photographer",
+                  "Videographer",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h2>
           <h3>
-          I <span role="img" aria-label="heart">💕</span> <span role="img" aria-label="laptop">💻</span>, <span role="img" aria-label="camera">📷</span> & <span role="img" aria-label="video">📹</span>
+            I{" "}
+            <span role="img" aria-label="heart">
+              💕
+            </span>{" "}
+            <span role="img" aria-label="laptop">
+              💻
+            </span>
+            ,{" "}
+            <span role="img" aria-label="camera">
+              📷
+            </span>{" "}
+            &{" "}
+            <span role="img" aria-label="video">
+              📹
+            </span>
           </h3>
         </header>
       )}
