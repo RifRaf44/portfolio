@@ -46,6 +46,29 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: "gatsby-plugin-google-tagmanager",
+            options: {
+              id: "GTM-59GQS98",
+
+              // Include GTM in development.
+              //
+              // Defaults to false meaning GTM will only be loaded in production.
+              includeInDevelopment: false,
+
+              // datalayer to be set before GTM is loaded
+              // should be an object or a function that is executed in the browser
+              //
+              // Defaults to null
+              defaultDataLayer: { platform: "raphaelWebsite" },
+
+              // Name of the event that is triggered
+              // on every Gatsby route change.
+              //
+              // Defaults to gatsby-route-change
+              routeChangeEventName: "routeChanged",
+            },
+          },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
@@ -72,8 +95,8 @@ module.exports = {
         develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         // whitelist: ['whitelist'], // Don't remove this selector
-        ignore: ['/ignored.css', 'prismjs/', '/prism.css', 'docsearch.js/'], // Ignore files/folders
-        purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
+        ignore: ["/ignored.css", "prismjs/", "/prism.css", "docsearch.js/"], // Ignore files/folders
+        purgeOnly: ["components/", "/main.css", "bootstrap/"], // Purge only these files/folders
       },
     },
     {

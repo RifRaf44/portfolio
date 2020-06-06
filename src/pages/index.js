@@ -16,7 +16,6 @@ const BlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
   let postCounter = 0
-  let typistIndex
 
   return (
     <Layout title={siteTitle}>
