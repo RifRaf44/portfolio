@@ -63,7 +63,7 @@ const AboutPage = ({ data }, location) => {
             </p>
             <p>
               Check out some of the stuff I've worked on over at{" "}
-              <a href="https://www.behance.net/turminetor59fd">Behance</a>
+              <a href="https://www.behance.net/rvercruyssen">Behance</a>
             </p>
           </div>
 
