@@ -14,6 +14,7 @@ const AboutPage = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
+        description="Learn more about Raphaël"
         title="About Raphaël"
         keywords={[
           `Raphaël Vercruyssen`,

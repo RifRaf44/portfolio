@@ -23,6 +23,7 @@ const BlogIndex = ({ data }, location) => {
         title="Raphael's Portfolio"
         keywords={[
           `UX Designer`,
+          "UI",
           `Web Developer`,
           `Photographer`,
           `Video`,
@@ -31,6 +32,8 @@ const BlogIndex = ({ data }, location) => {
           `Aerial Photography`,
           `Surf`,
           "Snow",
+          "Raphaël Vercruyssen",
+          "raphael vercruyssen",
         ]}
       />
       {/* <Bio /> */}

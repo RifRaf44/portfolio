@@ -15,6 +15,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
+          keywords={post.frontmatter.keywords || ["raphael vercruyssen"]}
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
@@ -95,6 +96,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       html
       frontmatter {
+        keywords
         title
         date(formatString: "MMMM DD, YYYY")
         description

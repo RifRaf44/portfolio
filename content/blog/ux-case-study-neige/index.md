@@ -3,6 +3,8 @@ title: "UX Case Study: Neige Aventure"
 date: "2020-06-01"
 thumbnail: ./mockup.jpg
 description: A case study about improving the way you can book lessons and rent equipment at Neige Aventure
+keywords:
+  ["ui", "ux", "case study", "raphael vercruyssen", "raphaël vercruyssen"]
 ---
 
 # Introduction

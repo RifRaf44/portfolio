@@ -3,6 +3,7 @@ title: "Adobe XD Challenges"
 date: "2020-05-01"
 thumbnail: ./adobe.jpg
 description: Some user interfaces for various one-day projects
+keywords: ["ui", "ux", "raphael vercruyssen", "raphaël vercruyssen"]
 ---
 
 # Adobe XD Daily Challenge
