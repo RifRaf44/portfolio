@@ -103,3 +103,11 @@ Supported Flows
 ## Give it a try
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNCunNyDLoFoBt8pkQ0Yfz0%2FBerbank-High-Fidelity%3Fnode-id%3D74%253A74%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+
+# Thanks for reading
+
+If you learned anything, have any comments or questions feel free to get in touch in any of the following ways:
+
+- <a href="http://m.me/raphael.vercruyssen" target="_blank" rel="noreferrer"> Chat with me on FB Messenger</a>
+- <a href="mailto:raphael@vercruyssen.com">Send me an email</a>
+- <a href="https://www.instagram.com/rvercruyssen/">Slide into my insta DM's</a>
