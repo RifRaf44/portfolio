@@ -19,9 +19,9 @@ keywords:
 
 # Introduction
 
-As I was exploring one of my banks apps, I realized it was really hard to find where the wire transfer function was. That experience inspired me to create an app that flows like none other. I decided to take a deeper dive into what users are actually doing on their phones when it comes to banking.
+As I was exploring one of my bank's app, I realized it was really hard to find where the wire transfer function was. That experience inspired me to create an app that flows like none other. I decided to take a deeper dive into what users are actually doing on their phones when it comes to banking.
 
-Disclaimer: Berbank is not a real company, I made it up. This was a project by me, for me, because I **love** designing stuff.
+_Disclaimer_: Berbank is not a real company, I made it up. This was a project by me, for me, because I **love** designing stuff.
 
 # User Research
 
@@ -39,9 +39,9 @@ After analyzing the results and talking to some participants I was able to deduc
 
 # Flow
 
-After the users have been defined I started mapping out functionality and flow. I compared 3 different banking apps (Revolut, Belfius, Deutsche Bank) to see how they tackle problems, or where they fail to pair ease of use with functionality.
+After the users had been defined I started mapping out functionality and flow. I compared 3 different banking apps (Revolut, Belfius, Deutsche Bank) to see how they tackle problems, or where they fail to pair ease of use with functionality.
 
-I came up with a list of capabilities the app should have:
+I came up with a list of minimum capabilities the app should have:
 
 - Log in (Biometric or passcode)
 - Check Balance
